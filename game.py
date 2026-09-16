@@ -7,8 +7,8 @@ from pathlib import Path
 
 DATASET = Path(__file__).with_name("dataset.csv")
 CONFIDENCE_TARGET = 0.93
-MIN_QUESTIONS = 20
-MAX_QUESTIONS = 40
+MIN_QUESTIONS = 15
+MAX_QUESTIONS = 30
 UNKNOWN_THRESHOLD = 0.60
 METADATA = {
     "base_family": "Is it in the {value} family?",
